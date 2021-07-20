@@ -1,0 +1,27 @@
+{
+  "name": "project-four",
+  "version": "1.0.0",
+  "description": "Site project-four html css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deku-dev/project-four.git"
+  },
+  "keywords": [
+    "site",
+    "html",
+    "css"
+  ],
+  "author": "Deku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deku-dev/project-four/issues"
+  },
+  "homepage": "https://github.com/deku-dev/project-four#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
