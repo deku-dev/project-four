@@ -13,9 +13,7 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
 }
-.container {
-  min-width: 1220px;
-}
+@import "_common";
 @import "_header";
 @import "_main";
 @import "_footer";
