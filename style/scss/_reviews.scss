@@ -1,1 +1,16 @@
+.rev-slide {
+  margin: 0 auto;
+  width: 50%;
+  p {
+    text-align: center;
+  }
+}
 
+.student {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  .name-student {
+    font-weight: bolder;
+  }
+}

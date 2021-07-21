@@ -1,0 +1,17 @@
+.video {
+  background-color: $back-video-block;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  // position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  p {
+    text-align: center;
+    color: $main-font-color;
+    margin: 15px 0;
+  }
+}
+#ytplayer {
+  width: 1020px;
+}
