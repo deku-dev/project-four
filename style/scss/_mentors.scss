@@ -1,0 +1,26 @@
+.mentors {
+  h2 {
+    text-align: center;
+  }
+}
+.slide {
+  display: flex;
+  flex-flow: row nowrap;
+  .left-mentor {
+    img {
+    }
+  }
+  .right-mentor {
+    h4 {
+      color: $main-block-color;
+    }
+    hr {
+    }
+    .mentor-word {
+      p {
+        color: $main-font-color;
+        margin: 10px 0;
+      }
+    }
+  }
+}

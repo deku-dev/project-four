@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../fonts/OpenSans-Regular.ttf");
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,10 +10,15 @@
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
   width: 100vw;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+}
+
+hr {
+  outline: none;
 }
 
 @media (min-width: 575.98px) {
@@ -169,6 +178,22 @@ body {
     display: none;
   }
 }
+.mentors h2 {
+  text-align: center;
+}
+
+.slide {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.slide .right-mentor h4 {
+  color: #0099d6;
+}
+.slide .right-mentor .mentor-word p {
+  color: #666;
+  margin: 10px 0;
+}
+
 .copyright {
   text-align: center;
 }
