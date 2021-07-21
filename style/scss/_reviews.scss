@@ -1,12 +1,35 @@
+.review-students {
+  margin: 20px 20px;
+}
+
 .rev-slide {
-  margin: 0 auto;
+  margin: 20px 0 50px 0;
+  color: $main-font-color;
   width: 50%;
-  p {
+  .rev-paragr {
+    position: relative;
     text-align: center;
+    .rev-image {
+      width: 20px;
+      // position: absolute;
+      z-index: 9999;
+      clear: both;
+      margin: -5px -20px;
+    }
+    .left {
+      top: -10px;
+      left: -10px;
+    }
+    .right {
+      float: right;
+      bottom: 0;
+      right: 0;
+    }
   }
 }
 
 .student {
+  margin-top: 25px;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;

@@ -1,1 +1,21 @@
-
+.stat-learn {
+  background-color: $main-block-color;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.statistic-item {
+  display: flex;
+  color: white;
+  flex-flow: column nowrap;
+  align-items: center;
+  .num-stat {
+    font-size: large;
+    margin: 10px 0;
+  }
+  span {
+    text-align: center;
+  }
+}

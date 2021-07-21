@@ -180,15 +180,83 @@ h2 {
     display: none;
   }
 }
-.rev-slide {
-  margin: 0 auto;
-  width: 50%;
+.slide-dev {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 20px;
+  color: #666;
+  text-align: center;
 }
-.rev-slide p {
+.slide-dev hr {
+  background-color: #0099d6;
+  height: 1.5px;
+}
+.slide-dev .slide-title {
+  margin: 15px 0;
+}
+.slide-dev .slide-img {
+  display: block;
+  margin: 10px auto;
+}
+.slide-dev p {
+  margin: 20px 0;
+}
+
+.stat-learn {
+  background-color: #0099d6;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.statistic-item {
+  display: flex;
+  color: white;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.statistic-item .num-stat {
+  font-size: large;
+  margin: 10px 0;
+}
+.statistic-item span {
   text-align: center;
 }
 
+.review-students {
+  margin: 20px 20px;
+}
+
+.rev-slide {
+  margin: 20px 0 50px 0;
+  color: #666;
+  width: 50%;
+}
+.rev-slide .rev-paragr {
+  position: relative;
+  text-align: center;
+}
+.rev-slide .rev-paragr .rev-image {
+  width: 20px;
+  z-index: 9999;
+  clear: both;
+  margin: -5px -20px;
+}
+.rev-slide .rev-paragr .left {
+  top: -10px;
+  left: -10px;
+}
+.rev-slide .rev-paragr .right {
+  float: right;
+  bottom: 0;
+  right: 0;
+}
+
 .student {
+  margin-top: 25px;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
