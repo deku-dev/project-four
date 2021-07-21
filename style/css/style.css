@@ -184,14 +184,9 @@ h2 {
   margin-top: 130px;
 }
 
-.course-prog__left {
-  float: left;
-  width: 50%;
-}
-
-.course-prog__right {
-  float: right;
-  width: 50%;
+.course-prog {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .slide-dev {
