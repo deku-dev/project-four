@@ -1,3 +1,19 @@
+.address {
+  background-color: $main-block-color;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.address-item {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 60px;
+  }
+}
 .copyright {
   text-align: center;
 }

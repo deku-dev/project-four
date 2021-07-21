@@ -317,6 +317,24 @@ h2 {
   margin: 10px 0;
 }
 
+.address {
+  background-color: #0099d6;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.address-item {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.address-item img {
+  width: 60px;
+}
+
 .copyright {
   text-align: center;
 }
