@@ -9,12 +9,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg17"
    xml:space="preserve"
-   viewBox="0 0 155.29427 205.61655"
-   height="205.61655"
-   width="155.29427"
+   viewBox="0 0 155.36718 206.29749"
+   height="206.29749"
+   width="155.36717"
    version="1.1"
-   sodipodi:docname="locaion-poiter.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><sodipodi:namedview
+   sodipodi:docname="location-poiter.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><sodipodi:namedview
    pagecolor="#505050"
    bordercolor="#eeeeee"
    borderopacity="1"
@@ -23,8 +23,8 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1366"
-   inkscape:window-height="697"
+   inkscape:window-width="1920"
+   inkscape:window-height="1016"
    id="namedview1041"
    showgrid="false"
    fit-margin-top="0"
@@ -32,8 +32,8 @@
    fit-margin-right="0"
    fit-margin-bottom="0"
    inkscape:zoom="1.4685714"
-   inkscape:cx="83.572568"
-   inkscape:cy="77.901809"
+   inkscape:cx="-52.614205"
+   inkscape:cy="105.8201"
    inkscape:window-x="0"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
@@ -47,7 +47,7 @@
    id="defs12">
 </defs>
 <g
-   transform="matrix(1.7367761,0,0,1.7367761,2.8422663,0)"
+   transform="matrix(1.7367761,0,0,1.7367761,0.11853081,0)"
    style="opacity:0.98000004;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none"
    id="icon">
 	<path
@@ -58,13 +58,14 @@
 </g>
 <text
    id="text4536"
-   y="197.85092"
+   y="198.53186"
    x="-0.18229166"
    style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
    xml:space="preserve"><tspan
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.33333206px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-     y="197.85092"
+     y="198.53186"
      x="-0.18229166"
      id="tspan4534">Адреса</tspan></text>
+
 
 </svg>
