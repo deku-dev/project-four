@@ -13,14 +13,15 @@
    id="Capa_1"
    x="0px"
    y="0px"
-   viewBox="0 0 384 384"
-   style="enable-background:new 0 0 384 384;"
+   viewBox="0 0 269.45312 290.1994"
    xml:space="preserve"
    sodipodi:docname="call.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="269.45312"
+   height="290.1994"><metadata
    id="metadata918"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
    id="defs916" /><sodipodi:namedview
    pagecolor="#505050"
    bordercolor="#eeeeee"
@@ -35,15 +36,19 @@
    id="namedview914"
    showgrid="false"
    inkscape:zoom="1.3385417"
-   inkscape:cx="192"
-   inkscape:cy="192"
+   inkscape:cx="255.25526"
+   inkscape:cy="132.12099"
    inkscape:window-x="0"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Capa_1" />
+   inkscape:current-layer="Capa_1"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0" />
 <g
    id="g881"
-   transform="matrix(0.53538733,0,0,0.53538733,92.194192,36.909913)"
+   transform="matrix(0.53538733,0,0,0.53538733,32.914323,1.4941634)"
    style="fill:#ffffff;fill-opacity:1">
 	<g
    id="g879"
@@ -56,59 +61,76 @@
 	</g>
 </g>
 <g
-   id="g883">
+   id="g883"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g885">
+   id="g885"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g887">
+   id="g887"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g889">
+   id="g889"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g891">
+   id="g891"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g893">
+   id="g893"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g895">
+   id="g895"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g897">
+   id="g897"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g899">
+   id="g899"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g901">
+   id="g901"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g903">
+   id="g903"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g905">
+   id="g905"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g907">
+   id="g907"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g909">
+   id="g909"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <g
-   id="g911">
+   id="g911"
+   transform="translate(-71.980258,-36.90991)">
 </g>
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-   x="71.719841"
-   y="316.01556"
+   x="-0.26041669"
+   y="279.10565"
    id="text922"><tspan
      sodipodi:role="line"
      id="tspan920"
-     x="71.719841"
-     y="316.01556"
-     style="fill:#ffffff;-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:48px">Телефон</tspan></text>
+     x="-0.26041669"
+     y="279.10565"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.33333588px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff">Телефон</tspan></text>
+
+
 </svg>

@@ -334,7 +334,25 @@ h2 {
 .address-item img {
   width: 60px;
 }
+.address-item p {
+  margin: 10px 0;
+  font-style: normal;
+  color: white;
+}
+.address-item a {
+  color: white;
+  text-decoration: none;
+}
 
 .copyright {
   text-align: center;
+  color: #0099d6;
+  margin: 40px 0;
+}
+
+.copy {
+  margin: 15px 0 0 0;
+  text-decoration: none;
+  color: #666;
+  display: block;
 }
