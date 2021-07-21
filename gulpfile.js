@@ -49,4 +49,4 @@ gulp.task("watch", () => {
   // });
 });
 
-gulp.task("default", gulp.series(["styles"]));
+gulp.task("default", gulp.series(["styles", "minify-html"]));
