@@ -1,25 +1,59 @@
 @media (min-width: 575.98px) {
   .cent-cont {
-    padding: 0 calc(50% - 270px);
+    @include paddings(calc(50% - 270px));
+  }
+}
+
+@media (max-width: 580px) {
+  .stat-learn,
+  .address {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 767.98px) {
   .cent-cont {
-    padding: 0 calc(50% - 360px);
-  }
-  .course-prog{
-    
+    @include paddings(calc(50% - 360px));
   }
 }
-
+@media (max-width: 766px) {
+  .course-prog {
+    flex-direction: column;
+    padding-top: 150px;
+  }
+  .course-prog__left {
+    padding: 5px;
+    width: 90%;
+  }
+  .course-prog__right {
+    width: 90%;
+  }
+  .slide {
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+  }
+  .left-mentor {
+    padding: 5px;
+    width: 80% !important;
+  }
+  .right-mentor {
+    width: 80% !important;
+    h4 {
+      text-align: center;
+    }
+  }
+  .mentor-word {
+    text-align: center;
+  }
+}
 @media (min-width: 991.98px) {
   .cent-cont {
-    padding: 0 calc(50% - 480px);
+    @include paddings(calc(50% - 480px));
   }
 }
 @media (min-width: 1199.98px) {
   .cent-cont {
-    padding: 0 calc(50% - 530px);
+    @include paddings(calc(50% - 530px));
   }
 }
