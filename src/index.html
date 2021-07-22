@@ -65,7 +65,7 @@
           </p>
         </div>
         <div class="course-prog__right">
-          <form action="" method="post">
+          <form class="reg-form" action="" method="post">
             <h3>Зареєструватися на курси</h3>
             <span class="form-label">Ім'я<span>*</span></span>
             <input
@@ -107,7 +107,9 @@
               Я погоджуюся із <a href="#">Політикою Кофіденційності</a
               ><span>*</span>
             </label>
-            <input type="submit" value="ЗАРЕЄСТРУВАТИСЯ ЗАРАЗ" />
+            <span class="wrap-submit"
+              ><input type="submit" value="ЗАРЕЄСТРУВАТИСЯ ЗАРАЗ"
+            /></span>
           </form>
         </div>
       </section>
@@ -253,7 +255,7 @@
           версії Lorem Ipsum.
         </p>
         <div class="youtube">
-          <iframe
+          <!-- <iframe
             id="ytplayer"
             type="text/html"
             width=""
@@ -261,7 +263,7 @@
             src="https://www.youtube.com/embed/M7lc1UVf-VE"
             frameborder="0"
             allowfullscreen
-          ></iframe>
+          ></iframe> -->
         </div>
       </section>
       <section class="mentors cent-cont">
@@ -400,7 +402,7 @@
     <footer id="footer">
       <div class="maps">
         <div style="width: 100vw">
-          <iframe
+          <!-- <iframe
             width="100%"
             height="400"
             frameborder="0"
@@ -408,7 +410,7 @@
             marginheight="0"
             marginwidth="0"
             src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          ></iframe>
+          ></iframe> -->
         </div>
       </div>
       <address class="address cent-cont">
@@ -462,7 +464,7 @@
         <a href="#" class="copy">Умови полiтики конфiденцiйностi</a>
       </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
 
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script>
@@ -472,13 +474,13 @@
           dots: true,
           resposive: [
             {
-              breakpoint: 850,
+              breakpoint: "850",
               settings: {
                 slidesToShow: 2,
               },
             },
             {
-              breakpoint: 600,
+              breakpoint: "600",
               settings: {
                 slidesToShow: 1,
               },

@@ -1,4 +1,6 @@
 .mentors {
+  padding-top: 50px;
+  padding-bottom: 50px;
   h2 {
     text-align: center;
   }
@@ -8,7 +10,7 @@
   flex-flow: row nowrap;
   .left-mentor {
     width: 45%;
-    padding: 0 135px;
+    padding: 0 105px;
     img {
       width: 100%;
     }
