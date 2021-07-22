@@ -4,6 +4,8 @@ $line-menu-btn: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   right: 0;
   background-color: #fff;
   box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.171);
@@ -11,7 +13,7 @@ $line-menu-btn: #ffffff;
   z-index: 100;
   .logo-img {
     float: left;
-    width: 100px;
+    width: 70px;
   }
 
   .menu-icon {
@@ -25,7 +27,7 @@ $line-menu-btn: #ffffff;
 }
 .main-nav {
   position: relative;
-  padding: 15px;
+  padding: 20px;
 }
 .nav-list {
   display: flex;
@@ -34,18 +36,29 @@ $line-menu-btn: #ffffff;
   overflow: hidden;
   align-items: center;
 }
+
 .menu-btn:checked ~ .nav-list {
   max-height: 340px;
 }
 .nav-link {
   display: block;
   text-decoration: none;
-  padding: 15px;
+  color: $main-font-color;
+  padding: 10px;
   background-color: #fff;
+}
+.apply-post {
+  background-color: $main-block-color;
+  border-radius: 50px;
+  color: #fff;
 }
 .nav-link:hover,
 .menu-btn:hover {
-  background-color: #f4f4f4;
+  color: $main-block-color;
+  background-color: #f2f2f2;
+}
+.apply-post:hover {
+  background-color: $main-block-color;
 }
 .menu-btn {
   display: none;
@@ -108,7 +121,8 @@ $line-menu-btn: #ffffff;
     float: left;
   }
   .nav-link {
-    padding: 20px 30px;
+    margin: 10px;
+    padding: 7px 15px;
   }
   .nav-list {
     clear: none;

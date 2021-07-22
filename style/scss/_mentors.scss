@@ -6,6 +6,7 @@
   }
 }
 .slide {
+  margin-top: 20px;
   display: flex;
   flex-flow: row nowrap;
   .left-mentor {
@@ -19,14 +20,14 @@
     width: 55%;
     h4 {
       color: $main-block-color;
-      margin: 15px 0;
+      margin: 12px 0;
     }
     hr {
       height: 1px;
       background-color: #f7f7f7;
     }
     .mentor-word {
-      margin-top: 27px;
+      margin-top: 24px;
       p {
         color: $main-font-color;
         margin: 10px 0;

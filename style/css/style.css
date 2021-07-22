@@ -52,6 +52,8 @@ h2 {
   position: fixed;
   top: 0;
   left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   right: 0;
   background-color: #fff;
   box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.171);
@@ -60,7 +62,7 @@ h2 {
 }
 #header .logo-img {
   float: left;
-  width: 100px;
+  width: 70px;
 }
 #header .menu-icon {
   float: right;
@@ -74,7 +76,7 @@ h2 {
 
 .main-nav {
   position: relative;
-  padding: 15px;
+  padding: 20px;
 }
 
 .nav-list {
@@ -92,13 +94,25 @@ h2 {
 .nav-link {
   display: block;
   text-decoration: none;
-  padding: 15px;
+  color: #666;
+  padding: 10px;
   background-color: #fff;
+}
+
+.apply-post {
+  background-color: #0099d6;
+  border-radius: 50px;
+  color: #fff;
 }
 
 .nav-link:hover,
 .menu-btn:hover {
-  background-color: #f4f4f4;
+  color: #0099d6;
+  background-color: #f2f2f2;
+}
+
+.apply-post:hover {
+  background-color: #0099d6;
 }
 
 .menu-btn {
@@ -167,7 +181,8 @@ h2 {
   }
 
   .nav-link {
-    padding: 20px 30px;
+    margin: 10px;
+    padding: 7px 15px;
   }
 
   .nav-list {
@@ -232,6 +247,7 @@ label a {
 }
 
 .wrap-submit {
+  text-align: center;
   margin: 30px 0;
 }
 .wrap-submit input {
@@ -366,6 +382,7 @@ label a {
 }
 
 .slide {
+  margin-top: 20px;
   display: flex;
   flex-flow: row nowrap;
 }
@@ -381,14 +398,14 @@ label a {
 }
 .slide .right-mentor h4 {
   color: #0099d6;
-  margin: 15px 0;
+  margin: 12px 0;
 }
 .slide .right-mentor hr {
   height: 1px;
   background-color: #f7f7f7;
 }
 .slide .right-mentor .mentor-word {
-  margin-top: 27px;
+  margin-top: 24px;
 }
 .slide .right-mentor .mentor-word p {
   color: #666;

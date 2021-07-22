@@ -43,8 +43,8 @@
           <li class="nav-list__item">
             <a href="#" class="nav-link">Ментори</a>
           </li>
-          <li class="nav-list__item apply-post">
-            <a href="#" class="nav-link">Подати заявку</a>
+          <li class="nav-list__item">
+            <a href="#" class="nav-link apply-post"> Подати заявку</a>
           </li>
         </ul>
       </nav>
@@ -65,10 +65,11 @@
           </p>
         </div>
         <div class="course-prog__right">
-          <form class="reg-form" action="" method="post">
+          <form class="reg-form" action="/" method="post">
             <h3>Зареєструватися на курси</h3>
             <span class="form-label">Ім'я<span>*</span></span>
             <input
+              required
               type="text"
               name="name"
               id="firstname-input"
@@ -76,6 +77,7 @@
             />
             <span class="form-label">Прізвище<span>*</span></span>
             <input
+              required
               type="text"
               name="surname"
               id="surname-input"
@@ -83,6 +85,7 @@
             />
             <span class="form-label">Мене більше цікавить<span>*</span></span>
             <input
+              required
               type="text"
               name="interests"
               id="interests-input"
@@ -90,6 +93,7 @@
             />
             <span class="form-label">Номер телефону<span>*</span></span>
             <input
+              required
               type="tel"
               name="tel-num"
               id="tel-input"
@@ -97,13 +101,14 @@
             />
             <span class="form-label">Email<span>*</span></span>
             <input
+              required
               type="email"
               name="email"
               id="email-input"
               placeholder="Email"
             />
             <label>
-              <input type="checkbox" name="license" id="license" />
+              <input type="checkbox" required name="license" id="license" />
               Я погоджуюся із <a href="#">Політикою Кофіденційності</a
               ><span>*</span>
             </label>
