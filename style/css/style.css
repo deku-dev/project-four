@@ -112,7 +112,8 @@ h2 {
 }
 
 .apply-post:hover {
-  background-color: #0099d6;
+  background-color: #3e74c4;
+  color: #fff;
 }
 
 .menu-btn {
@@ -261,6 +262,10 @@ label a {
   color: white;
   border: none;
   background-color: #0099d6;
+}
+.wrap-submit input:hover {
+  background-color: #3e74c4;
+  cursor: pointer;
 }
 
 .form-label,

@@ -58,7 +58,8 @@ $line-menu-btn: #ffffff;
   background-color: #f2f2f2;
 }
 .apply-post:hover {
-  background-color: $main-block-color;
+  background-color: $hover-color-submit;
+  color: #fff;
 }
 .menu-btn {
   display: none;
