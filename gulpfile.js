@@ -15,15 +15,14 @@ gulp.task("styles", () => {
 });
 gulp.task("minify-html", function () {
   return gulp
-    .src("./src/index.html") // указываем пути к файлам .html
+    .src("./src/index.html")
     .pipe(
       htmlmin({
-        collapseWhitespace: true, // удаляем все переносы
-        removeComments: true, // удаляем все комментарии
+        collapseWhitespace: true,
+        removeComments: true, 
       })
     )
-    .pipe(gulp.dest("./")); // оптимизированные файлы .html переносим на продакшен
-});
+    .pipe(gulp.dest("./")); 
 gulp.task("minify-css", () => {
   return gulp
     .src("style/css/*.css")
@@ -44,9 +43,9 @@ gulp.task("watch", () => {
   gulp.watch("./src/index.html", (done) => {
     gulp.series(["minify-html"])(done);
   });
-  // gulp.watch("style/css/*.css", (done) => {
-  //   gulp.series(["minify-css"])(done);
-  // });
+  gulp.watch("style/css/*.css", (done) => {
+    gulp.series(["minify-css"])(done);
+  });
 });
 
-gulp.task("default", gulp.series(["styles", "minify-html"]));
+gulp.task("default", gulp.series(["styles", "minify-html", "minify-css"]));
