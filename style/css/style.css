@@ -380,7 +380,7 @@ label a {
 }
 .slide .left-mentor {
   width: 45%;
-  padding: 0 105px;
+  padding: 0 8%;
 }
 .slide .left-mentor img {
   width: 100%;
@@ -455,6 +455,12 @@ label a {
   .stat-learn,
 .address {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 300px) {
+  .stat-learn,
+.address {
+    grid-template-columns: 1fr;
   }
 }
 @media (min-width: 767.98px) {

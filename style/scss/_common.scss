@@ -10,6 +10,12 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (max-width: 300px) {
+  .stat-learn,
+  .address {
+    grid-template-columns: 1fr;
+  }
+}
 
 @media (min-width: 767.98px) {
   .cent-cont {
