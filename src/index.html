@@ -14,44 +14,47 @@
   <body>
     <header class="cent-cont" id="header">
       <nav class="main-nav">
-        <img
-          src="asset/logo_Oxit.png"
-          alt="LogoOxit"
-          title="LogoOxit"
-          width=""
-          height=""
-          class="logo-img"
-        />
-
+        <div class="block-menu-head">
+          <img
+            src="asset/logo_Oxit.png"
+            alt="LogoOxit"
+            title="LogoOxit"
+            width=""
+            height=""
+            class="logo-img"
+          />
+          <label class="menu-icon" for="menu-btn"
+            ><span class="navicon"></span
+          ></label>
+        </div>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"
-          ><span class="navicon"></span
-        ></label>
+        
         <ul class="nav-list">
           <li class="nav-list__item">
-            <a href="#" class="nav-link">Головна</a>
+            <a href="#main" class="nav-link">Головна</a>
           </li>
           <li class="nav-list__item">
-            <a href="#" class="nav-link">Програма курсу</a>
+            <a href="#course" class="nav-link">Програма курсу</a>
           </li>
           <li class="nav-list__item">
-            <a href="#" class="nav-link">Вiдгуки про курс</a>
+            <a href="#reviews" class="nav-link">Вiдгуки про курс</a>
           </li>
           <li class="nav-list__item">
-            <a href="#" class="nav-link">Вiдео</a>
+            <a href="#video" class="nav-link">Вiдео</a>
           </li>
 
           <li class="nav-list__item">
-            <a href="#" class="nav-link">Ментори</a>
+            <a href="#mentors" class="nav-link">Ментори</a>
           </li>
           <li class="nav-list__item">
-            <a href="#" class="nav-link apply-post"> Подати заявку</a>
+            <a href="#main" class="nav-link apply-post"> Подати заявку</a>
           </li>
         </ul>
       </nav>
     </header>
     <main id="main">
-      <section class="course-prog cent-cont">
+      <span class="anchor"></span>
+      <section id="main" class="course-prog cent-cont">
         <div class="course-prog__left">
           <h2>Курси програмування у Луцьку</h2>
           <p class="center-text">
@@ -119,7 +122,10 @@
           </form>
         </div>
       </section>
+      
       <section class="site-development cent-cont">
+
+        <span id="course" class="anchor"></span>
         <h2>Курс «‎Розробка сайтів»‎</h2>
         <div class="slider-development">
           <div class="slide-wordpress slide-dev">
@@ -170,7 +176,9 @@
           </div>
         </div>
       </section>
+      
       <section class="stat-learn cent-cont">
+        <span id="statistic" class="anchor"></span>
         <div class="statistic-item">
           <img src="asset/statistic-icon-1.png" title="Cource" alt="Cource" />
           <span class="num-stat">25</span>
@@ -196,7 +204,9 @@
           <span>випускників курсів працевлаштовано</span>
         </div>
       </section>
+      
       <section class="review-students cent-cont">
+        <span id="reviews" class="anchor"></span>
         <h2>Що кажуть студенти наших курсів:</h2>
         <div class="slider-reviews">
           <div class="slide-1 rev-slide">
@@ -246,7 +256,9 @@
           </div>
         </div>
       </section>
+      
       <section class="video cent-cont">
+        <span id="video" class="anchor"></span>
         <h2>Відео</h2>
         <p>
           Lorem Ipsum - це текст-"риба", що використовується в друкарстві та
@@ -272,7 +284,9 @@
           ></iframe>
         </div>
       </section>
+      
       <section class="mentors cent-cont">
+        <span id="mentors" class="anchor"></span>
         <h2>Наші ментори</h2>
         <div class="slider-mentors">
           <div class="slide-viktor">
@@ -517,15 +531,22 @@
         $(".slider-mentors").slick({
           dots: true,
           arrows: false,
+          autoplay: true,
+          autoplaySpeed: 10000,
         });
         $(".slider-reviews").slick({
           fade: true,
           arrows: false,
           dots: true,
           autoplay: true,
-          autoplaySpeed: 10000,
+          autoplaySpeed: 10000, 
         });
         resizeSlick();
+        $('.nav-link').click(function (e){
+          if($('#menu-btn').is(':checked')){
+            $('#menu-btn').prop('checked', false);
+          }
+        });
       });
     </script>
   </body>

@@ -9,6 +9,9 @@
   .address {
     grid-template-columns: 1fr 1fr;
   }
+  .main-nav{
+    padding: 0px 15px 0px 0;
+  }
 }
 @media (max-width: 300px) {
   .stat-learn,
@@ -36,7 +39,6 @@
   }
   .slide {
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
   }
   .left-mentor {
