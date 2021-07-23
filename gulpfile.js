@@ -8,9 +8,9 @@ const htmlmin = require("gulp-htmlmin");
 gulp.task("styles", () => {
   return gulp
     .src("./style/scss/*.scss")
-
+    .pipe(sourcemaps.init())
     .pipe(sass().on("error", sass.logError))
-
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest("./style/css/"));
 });
 gulp.task("minify-html", function () {
@@ -22,19 +22,15 @@ gulp.task("minify-html", function () {
         removeComments: true, 
       })
     )
-    .pipe(gulp.dest("./")); 
-gulp.task("minify-css", () => {
-  return gulp
-    .src("style/css/*.css")
-    .pipe(sourcemaps.init())
-    .pipe(
-      cleanCSS({ debug: true }, (details) => {
-        console.log(`${details.name}: ${details.stats.originalSize}`);
-        console.log(`${details.name}: ${details.stats.minifiedSize}`);
-      })
-    )
-    .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("./"));
+});
+gulp.task('minify-css',() => {
+  return gulp.src('./style/css/*.css')
+    .pipe(cleanCSS({debug: true}, (details) => {
+      console.log(`${details.name}: ${details.stats.originalSize}`);
+      console.log(`${details.name}: ${details.stats.minifiedSize}`);
+    }))
+    .pipe(gulp.dest('./style/css/'));
 });
 gulp.task("watch", () => {
   gulp.watch("style/scss/*.scss", (done) => {
