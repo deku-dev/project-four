@@ -34,7 +34,7 @@
     align-items: center;
   }
   .left-mentor {
-    padding: 5px;
+    padding: 5px !important;
     width: 80% !important;
   }
   .right-mentor {
@@ -55,5 +55,10 @@
 @media (min-width: 1199.98px) {
   .cent-cont {
     @include paddings(calc(50% - 530px));
+  }
+}
+@media (max-width: 1020px) {
+  #ytplayer {
+    width: 100vw;
   }
 }

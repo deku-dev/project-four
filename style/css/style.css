@@ -13,7 +13,6 @@ body {
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
   line-height: 24px;
-  width: 100vw;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -359,6 +358,7 @@ label a {
   text-align: center;
   color: #666;
   margin: 15px 0;
+  padding: 10px;
 }
 
 #ytplayer {
@@ -413,6 +413,7 @@ label a {
 }
 
 .address-item {
+  text-align: center;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -483,7 +484,7 @@ label a {
   }
 
   .left-mentor {
-    padding: 5px;
+    padding: 5px !important;
     width: 80% !important;
   }
 
@@ -508,5 +509,10 @@ label a {
   .cent-cont {
     padding-left: calc(50% - 530px);
     padding-right: calc(50% - 530px);
+  }
+}
+@media (max-width: 1020px) {
+  #ytplayer {
+    width: 100vw;
   }
 }
